@@ -55,6 +55,6 @@ feature "When I visit a specific snack page" do
 
         visit snack_path(snack1)
 
-    expect(page).to have_content("There is 1 #{snack1.name} at #{lancer.location}")
+    expect(page).to have_content("#{lancer.location} (3 kinds of snacks, average price of")
   end
 end
