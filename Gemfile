@@ -20,6 +20,8 @@ group :development, :test do
   gem 'pry-rails'
   gem 'capybara'
   gem 'launchy'
+  gem 'faker'
+    gem 'database_cleaner'
 end
 
 group :development do
